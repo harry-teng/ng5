@@ -1,0 +1,11 @@
+.color-dark, col {
+    color: blue;
+}
+.life-container {
+    display: block;
+    background: green;
+    
+}
+.life-container::before{
+    content: "-";
+}
